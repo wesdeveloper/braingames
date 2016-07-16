@@ -1,3 +1,9 @@
+<!-- Carrega o Header -->
+<?php $this->load->view('includes/header');?>
+
+<!-- Carrega o Menu -->
+<?php $this->load->view('includes/menu');?>
+
 <div class="text-center header">
     <h3> Projeto Aplicado - Jogos digitais</h3>
     <hr class="hr">

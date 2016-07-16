@@ -1,3 +1,4 @@
+
 <script src="js/controller/jogos/jmMedio.js"></script>
 <!--- jogo da Memoria Dificil--->
 <script type="text/javascript">

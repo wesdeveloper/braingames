@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Page extends CI_Controller {
+class Categorias extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,7 +20,19 @@ class Page extends CI_Controller {
 	 */
 	public function index()
 	{
-		$titulo = "Home";
-		$this->template->load('template_base', 'home', $titulo);
+		$data['title'] = "Home";
+		$this->load->view('home', $data);
 	}
+
+	public function raciociniologico()
+	{
+		$data['title'] = "Raciocinio Lógico";
+		$this->load->view('jogosRaciocinio', $data);
+	}
+	public function memoria()
+	{
+		$data['title'] = "Jogos da Memoria";
+		$this->load->view('jogosMemoria', $data);
+	}
+
 }

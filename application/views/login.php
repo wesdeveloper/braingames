@@ -1,3 +1,9 @@
+<!-- Carrega o Header -->
+<?php $this->load->view('includes/header');?>
+
+<!-- Carrega o Menu -->
+<?php $this->load->view('includes/menu');?>
+
 <div class="background header col-sm-12 col-md-12">
 
     <div class="col-md-3"></div>

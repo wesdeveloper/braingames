@@ -1,3 +1,9 @@
+<!-- Carrega o Header -->
+<?php $this->load->view('includes/header',$title);?>
+
+<!-- Carrega o Menu -->
+<?php $this->load->view('includes/menu');?>
+
 <div class="header col-md-12">
     <h1 class="text-center"> Jogos para a Memoria de curto prazo</h1>
     <div class="col-md-12">
@@ -145,3 +151,6 @@
     </script>
 
 </div>
+
+<!-- Carrega o Footer -->
+<?php $this->load->view('includes/footer'); ?>
