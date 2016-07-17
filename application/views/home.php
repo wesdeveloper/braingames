@@ -3,6 +3,7 @@
 
 <!-- Carrega o Menu -->
 <?php $this->load->view('includes/menu');?>
+
 <div class="header col-sm-12 col-md-12">
     <div class="row row-offcanvas row-offcanvas-right col-xs-3 col-sm-3">
         <div class="list-group sidebar-offcanvas hidden-xs">
@@ -37,7 +38,7 @@
                     <p class="text-justify">Conseguir três "O" ou três "X" em uma linha, podendo ser
                         na horizontal, vertical ou diagonal.
                     </p>
-                    <p><a href="#jgVelha" class="btn btn-success btn-block btn-group-lg" role="button">
+                    <p><a href="<?php echo site_url('jogos/jogovelha'); ?>" class="btn btn-success btn-block btn-group-lg" role="button">
                         Jogar</a></p>
                 </div>
             </div>
@@ -50,7 +51,7 @@
                     <h3>Jogo da memoria</h3>
                     <p class="text-justify">Encontre todos os pares iguais das fotos, neste jogo de raciocínio
                         online.</p>
-                    <p><a href="#" class="btn btn-success btn-block btn-group-lg"
+                    <p><a href="<?php echo site_url('jogos/jogomemoriamedio'); ?>" class="btn btn-success btn-block btn-group-lg"
                           role="button"> Jogar</a></p>
                 </div>
             </div>

@@ -14,7 +14,7 @@
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="img-equipe">
-                    <img src="img/equipe/gabriel.jpg" border="0"/>
+                    <img src="<?php echo base_url("assets/img/equipe/gabriel.jpg");?>" border="0"/>
                 </div>
                 <div class="tamanhocaixa">
                     <h2>Gabriel Soares</h2>
@@ -29,7 +29,7 @@
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="img-equipe">
-                    <img src="img/equipe/jessicasilva.jpg" border="0"/>
+                    <img src="<?php echo base_url("assets/img/equipe/jessicasilva.jpg");?>" border="0"/>
                 </div>
                 <div class="tamanhocaixa">
                     <h2>Jessica Silva</h2>
@@ -43,7 +43,7 @@
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="img-equipe">
-                    <img src="img/equipe/lucasribeiro.jpg" border="0"/>
+                    <img src="<?php echo base_url("assets/img/equipe/lucasribeiro.jpg");?>" border="0"/>
                 </div>
                 <div class="tamanhocaixa">
                     <h2>Lucas Ribeiro</h2>
@@ -56,7 +56,7 @@
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="img-equipe">
-                    <img src="img/equipe/lucasroberto.jpg" border="0"/>
+                    <img src="<?php echo base_url("assets/img/equipe/lucasroberto.jpg");?>" border="0"/>
                 </div>
                 <div class="tamanhocaixa">
                     <h2>Lucas Roberto</h2>
@@ -68,7 +68,7 @@
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="img-equipe">
-                    <img src="img/equipe/nathanoliveira.jpg" border="0"/>
+                    <img src="<?php echo base_url("assets/img/equipe/nathanoliveira.jpg");?>" border="0"/>
                 </div>
                 <div class="tamanhocaixa">
 
@@ -81,7 +81,7 @@
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="img-equipe">
-                    <img src="img/equipe/wesleylopes.jpg" border="0"/>
+                    <img src="<?php echo base_url("assets/img/equipe/wesleylopes.jpg");?>" border="0"/>
                 </div>
                 <div class="tamanhocaixa">
                     <h2>Wesley Lopes</h2>
@@ -95,7 +95,7 @@
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="img-equipe">
-                    <img src="img/equipe/wesleysimoes.jpg" border="0"/>
+                    <img src="<?php echo base_url("assets/img/equipe/wesleylopes.jpg");?>" border="0"/>
                 </div>
                 <div class="tamanhocaixa">
                     <h2>Wesley Simões</h2>
@@ -112,3 +112,5 @@
     <div class="col-md-1 col-sm-1"></div>
 </div>
 
+<!-- Carrega o Footer -->
+<?php $this->load->view('includes/footer'); ?>

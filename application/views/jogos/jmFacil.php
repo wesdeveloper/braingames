@@ -1,5 +1,12 @@
-<script src="js/controller/jogos/jmFacil.js"></script>
-<!--- jogo da Memoria Facil--->
+<!-- Carrega o Header -->
+<?php $this->load->view('includes/header',$title);?>
+
+<!-- Carrega o Menu -->
+<?php $this->load->view('includes/menu');?>
+
+<script src="<?php echo base_url("assets/js/jogos/jmFacil.js");?>"></script>
+
+<!--- jogo da Memoria Facil-->
 <script type="text/javascript">
     onload = GameControl.createGame();
 </script>

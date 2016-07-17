@@ -1,6 +1,12 @@
+<!-- Carrega o Header -->
+<?php $this->load->view('includes/header',$title);?>
 
-<script src="js/controller/jogos/jmMedio.js"></script>
-<!--- jogo da Memoria Dificil--->
+<!-- Carrega o Menu -->
+<?php $this->load->view('includes/menu');?>
+
+<script src="<?php echo base_url("assets/js/jogos/jmMedio.js");?>"></script>
+
+<!--- jogo da Memoria Dificil-->
 <script type="text/javascript">
     onload = GameControl.createGame();
 </script>

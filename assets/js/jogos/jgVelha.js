@@ -8,7 +8,7 @@ function chkJogo (id) {
     var src = chkSrc(id);
     var cpu = document.getElementById('cpu').checked;
     if(src == "fundo.jpg"){
-        document.getElementById(id).src = "img/jg_velha/"+jogador+".jpg";
+        document.getElementById(id).src = "http://localhost/braingames/assets/img/jg_velha/"+jogador+".jpg";
         jogada ++;
         //chama a verificacao de vitoria e/ou empate
 

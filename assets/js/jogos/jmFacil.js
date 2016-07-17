@@ -24,7 +24,7 @@
     }
 
     function Card(picture) {
-        var FOLDER_IMAGES = 'img/jm_medio/'
+        var FOLDER_IMAGES = 'http://localhost/braingames/assets/img/jogoMemoria/'
         var IMAGE_QUESTION = "question.jpg"
         this.picture = picture;
         this.visible = false;

@@ -21,7 +21,7 @@ class Categorias extends CI_Controller {
 	public function index()
 	{
 		$data['title'] = "Home";
-		$this->load->view('home', $data);
+		echo "Pagina de Categorias";
 	}
 
 	public function raciociniologico()
@@ -31,8 +31,7 @@ class Categorias extends CI_Controller {
 	}
 	public function memoria()
 	{
-		$data['title'] = "Jogos da Memoria";
+		$data['title'] = "Memoria";
 		$this->load->view('jogosMemoria', $data);
 	}
-
 }

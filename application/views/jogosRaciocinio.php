@@ -13,7 +13,7 @@
 
     <div class="col-sm-4 col-md-4">
         <div class="thumbnail">
-            <img src="img/logojv.jpg">
+            <img src="<?php echo base_url("assets/img/logojv.jpg");?>">
             <div class="caption">
                 <h3>Jogo da velha</h3>
 
@@ -25,7 +25,7 @@
                     Mais Informações
                 </button>
                 <br>
-                <p><a href="#jgVelha" class="btn btn-success btn-block btn-group-lg" role="button">
+                <p><a href="<?php echo site_url('jogos/jogovelha'); ?>" class="btn btn-success btn-block btn-group-lg" role="button">
                     Jogar</a></p>
             </div>
         </div>

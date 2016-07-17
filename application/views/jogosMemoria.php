@@ -13,7 +13,7 @@
 
     <div class="col-sm-4 col-md-4">
         <div class="thumbnail">
-            <img src="img/logojm.jpg">
+            <img src="<?php echo base_url("assets/img/logojm.jpg");?>">
             <div class="caption">
                 <h3>Jogo da memoria</h3>
                 <h4>
@@ -27,7 +27,7 @@
                         Mais Informações
                     </button>
                     <br>
-                    <p><a href="#jmFacil" class="btn btn-success btn-block btn-group-lg" role="button">
+                    <p><a href="<?php echo site_url('jogos/jogomemoriafacil'); ?>" class="btn btn-success btn-block btn-group-lg" role="button">
                         Jogar</a></p>
                 </h4>
             </div>
@@ -37,7 +37,7 @@
 
     <div class="col-sm-4 col-md-4">
         <div class="thumbnail">
-            <img src="img/logojm.jpg">
+            <img src="<?php echo base_url("assets/img/logojm.jpg");?>">
             <div class="caption">
                 <h3>Jogo da memoria</h3>
                 <h4>
@@ -51,7 +51,7 @@
                         Mais Informações
                     </button>
                     <br>
-                    <p><a href="#jmMedio" class="btn btn-success btn-block btn-group-lg" role="button">
+                    <p><a href="<?php echo site_url('jogos/jogomemoriamedio'); ?>" class="btn btn-success btn-block btn-group-lg" role="button">
                         Jogar</a></p>
                 </h4>
             </div>
@@ -60,7 +60,7 @@
 
     <div class="col-sm-4 col-md-4">
         <div class="thumbnail">
-            <img src="img/logojm.jpg">
+            <img src="<?php echo base_url("assets/img/logojm.jpg");?>">
             <div class="caption">
                 <h3>Jogo da memoria</h3>
                 <h4>
@@ -75,7 +75,7 @@
                         Mais Informações
                     </button>
                     <br>
-                    <p><a href="#jmDificil" class="btn btn-success btn-block btn-group-lg" role="button">
+                    <p><a href="<?php echo site_url('jogos/jogomemoriadificil'); ?>" class="btn btn-success btn-block btn-group-lg" role="button">
 
                         Jogar</a></p>
                 </h4>

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Braingames extends CI_Controller {
+class Jogos extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,31 +20,30 @@ class Braingames extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['title'] = "Home";
-		redirect('braingames/home');
+		redirect('categorias/index');
 	}
 
-	public function home()
+	public function jogomemoriafacil()
 	{
-		$data['title'] = "Home";
-		$this->load->view('home', $data);
+		$data['title'] = "Jogo da Memoria - Fácil";
+		$this->load->view('jogos/jmFacil', $data);
 	}
 
-	public function projeto()
+	public function jogomemoriamedio()
 	{
-		$data['title'] = "Projeto";
-		$this->load->view('projeto', $data);
+		$data['title'] = "Jogo da Memoria - Médio";
+		$this->load->view('jogos/jmMedio', $data);
 	}
 
-	public function equipe()
+		public function jogomemoriadificil()
 	{
-		$data['title'] = "Equipe";	
-		$this->load->view('equipe', $data);	
+		$data['title'] = "Jogo da Memoria - Dificil";
+		$this->load->view('jogos/jmDificil', $data);
 	}
 
-	public function login()
+	public function jogovelha()
 	{
-		$data['title'] = "Login";
-		$this->load->view('login', $data);
+		$data['title'] = "Jodo da Velha";
+		$this->load->view('jogos/jgVelha', $data);
 	}
 }
