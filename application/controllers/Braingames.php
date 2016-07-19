@@ -43,8 +43,43 @@ class Braingames extends CI_Controller {
 	}
 
 	public function login()
-	{
+	{	
 		$data['title'] = "Login";
 		$this->load->view('login', $data);
+	}
+
+	//Verifica o login do Usuário
+	public function entrar()
+	{	
+		//Carrega o Model Usuario
+		$this->load->model('usuarios_model');
+
+		$email = $this->input->post('inputEmail');	
+		$senha = $this->input->post('inputPassword');
+	
+		$login_existe = $this->usuarios_model->check_login($email, $senha);
+		
+		if ($login_existe)
+		{
+			//Usuário autenticado....
+			$usuario = $login_existe;
+
+			//Configura os dados da session
+			$session 	= array(
+	        'nome'  	=> $usuario['nome'],
+	        'email'     => $usuario['email'],
+	        'created'   => $usuario['created'],
+	        'logado' 	=> TRUE
+			);
+
+			//Inicializa a session
+			$this->session->set_userdata($session);
+
+			//Inicia a sessão e redireciona
+			redirect('usuarios/especialista');
+		}else
+		{
+			redirect('braingames/login');
+		}		
 	}
 }

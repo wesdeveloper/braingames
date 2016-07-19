@@ -8,18 +8,18 @@
 
     <div class="col-md-3"></div>
     <div class="col-md-6">
-        <form class="form-signin">
+        <form class="form-signin" action="<?php echo base_url('braingames/entrar');?>" method="post">
             <h2 class="form-signin-heading">Login:</h2>
             <label for="inputEmail" class="sr-only">Login</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Usuário ou Email" required autofocus>
+            <input type="email" name="inputEmail" class="form-control" placeholder="Usuário ou Email" required autofocus>
             <label for="inputPassword" class="sr-only">Senha</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+            <input type="password" name="inputPassword" class="form-control" placeholder="Senha" required>
             <div class="checkbox">
                 <label>
                     <input type="checkbox" value="remember-me"> Lembre-me
                 </label>
             </div>
-            <a href="#especialista" class="btn btn-primary btn-block" type="submit">Entrar</a>
+            <button class="btn btn-primary btn-block" name ="entrar" type="submit" >Entrar</button> 
         </form>
     </div>
     <div class="col-md-3"></div>

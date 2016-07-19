@@ -95,7 +95,7 @@
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="img-equipe">
-                    <img src="<?php echo base_url("assets/img/equipe/wesleylopes.jpg");?>" border="0"/>
+                    <img src="<?php echo base_url("assets/img/equipe/wesleysimoes.jpg");?>" border="0"/>
                 </div>
                 <div class="tamanhocaixa">
                     <h2>Wesley Simões</h2>
